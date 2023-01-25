@@ -16,10 +16,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: true,
+      debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
       theme: ThemeData(
-          primarySwatch: Colors.purple,
+          primarySwatch: Colors.deepPurple,
           fontFamily: GoogleFonts.lato().fontFamily),
       darkTheme: ThemeData(brightness: Brightness.dark),
       routes: {
@@ -30,5 +30,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-bringvegetables() {}
